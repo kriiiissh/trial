@@ -1,0 +1,88 @@
+Build an elegant, responsive, and modern frontend using React and Tailwind CSS for a web app that helps influencers and brands draft social media posts using AI.
+
+🟢 The web app is **not** for auto-posting; it is **draft-only** and supports both **LinkedIn** and **Twitter/X**.
+
+🧩 Pages and features required:
+
+1. **Landing Page**
+   - Hero section with heading: “Your Voice. Smarter Social Drafts.”
+   - Subheading: “AI-generated drafts tailored for LinkedIn and Twitter — powered by your tone.”
+   - CTA button: “Get Started” (navigates to onboarding)
+   - Features section with icons
+   - Testimonials section
+   - Footer with links to About, Terms, Contact
+
+2. **Onboarding Page**
+   - Multi-step form collecting:
+     - Name
+     - Industry/niche
+     - Target audience
+     - Content goals (checkbox: engagement, growth, thought leadership)
+     - Preferred tone (dropdown: professional, witty, formal, casual, inspirational)
+     - Upload or paste previous LinkedIn/Twitter posts
+   - Progress indicator
+   - Submit button
+
+3. **Dashboard Page**
+   - Side navigation menu:
+     - Home
+     - Create Post
+     - Scheduled Drafts
+     - Templates Library
+     - Profile & Settings
+   - Welcome message
+   - Quick stats (e.g., drafts generated, tone detected)
+   - Recent drafts preview
+   - Option to “Generate Post Now”
+
+4. **Create Post Page**
+   - Chat-style UI with user input box
+   - Conversation thread of user prompt + AI responses
+   - Dropdown to choose platform: LinkedIn or Twitter
+   - Button to regenerate or refine the draft
+   - Copy and edit buttons
+
+5. **Scheduling Page**
+   - UI to let user:
+     - Select platform(s): LinkedIn / Twitter
+     - Pick post days (e.g., Monday, Wednesday)
+     - Choose time (e.g., 9:00 AM)
+     - Define frequency: weekly, biweekly, custom
+     - “Add new post day” button
+   - Table showing current schedule (Day, Time, Platform)
+   - Delete/edit option for each schedule
+
+6. **Templates Page**
+   - Grid of post template cards
+   - Categories: Startup Tips, Leadership Quotes, Product Announcements
+   - Preview each template
+   - Button to “Use This Template” → opens in editor
+
+7. **Drafts Review Page**
+   - List of all drafts
+   - Filters by platform, date, status (Reviewed, Needs Edit)
+   - Edit inline using a markdown or WYSIWYG editor
+   - Copy or export draft options
+
+8. **Profile & Settings Page**
+   - Editable profile info: name, tone, industry, goals
+   - Option to reset onboarding
+   - Download data
+   - Logout button
+
+🎨 Design & UI requirements:
+- Clean, minimalist layout
+- Rounded corners, soft drop shadows
+- Modern, sans-serif fonts
+- Light/Dark mode toggle
+- Responsive design (mobile/tablet/desktop)
+- Icons for navigation (use Lucide or Heroicons)
+- Use Tailwind for styling and layout
+
+📦 Organize code into:
+- `components/` for reusable UI
+- `pages/` for routing
+- Use React Router for navigation
+
+📌 No backend or database is required now. Focus only on the frontend UI with state management using React hooks or Context API.
+
